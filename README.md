@@ -1,43 +1,35 @@
-# FreeRig_VT - Free & Open VTuber Rigging Suite (Blender + UE5)
+FreeRig_VT — Professional VTuber Rigging & Animation Suite
+Built for Unreal Engine 5
+A complete, high-performance VTuber pipeline that gives creators full ownership of their models — from PSD import to real-time AI-driven animation.
+Why FreeRig_VT?
+No more locked .moc3 files.
+No more paying thousands only to beg your rigger for updates.
+Full source access. Professional tools. Real flexibility.
+Core Features
 
-**Full editable source files included. Always.**
+PSD Importer — Direct import of layered Photoshop documents with automatic layer detection
+Advanced Rigging System — Bone hierarchy, mesh generation, skinning, and warp-style deformation
+Parameter-Driven Animation — EyeOpen, MouthOpen, Smile, BrowUp, Blink, and custom parameters with smooth interpolation
+Real-time Face Tracking
+Phone-based tracking (MediaPipe via web browser)
+Live Link Face (iOS) support
+Manual control fallback
 
-Tired of paying thousands for a rig only to get a locked .moc3 and a ghosting rigger when you want an update? 
+QR Code Quick Connect — Scan with your phone and instantly control your VTuber
+Unreal Engine 5 Runtime — High-performance Control Rig ready, Niagara physics compatible, cinematic quality
+Bone Driver System — Sophisticated runtime bone transform control based on parameters
 
-Same.
+Quick Start
 
-This project delivers a complete **free, open-source** pipeline:
-- **Blender Add-on** for professional 2D-style rigging (PSD import → meshes → warp deformers → parameters → physics)
-- **UE5 Runtime Plugin** for high-performance, cinematic VTubing (Control Rig, Niagara physics, Live Link tracking, MetaSounds)
+Import your PSD
+Auto-rig or manually refine bones and parameters
+Build character in UE5
+Use FreeRig.GoLive → Scan QR code with your phone
+Start performing
 
-No subscriptions. No locked files. No gatekeeping.
+Tech Stack
 
-## Why This Exists
-Because the VTuber community deserves ownership of their models.
-
-## Core Features (MVP — cooking right now)
-- PSD → layered plane import (GIMP/Photoshop friendly)
-- Advanced mesh + warp deformer tools (Geometry Nodes powered)
-- Parameter system (eye/mouth/brow/breathing etc.)
-- Baked + procedural physics (hair, clothes, accessories)
-- Full export: Master .blend (editable forever) + optimized runtime package
-- Real-time tracking preview (Mediapipe / Live Link Face)
-- UE5 integration with cinematic quality
-
-## Quick Start
-1. Download the Blender add-on
-2. Rig your model like a madman
-3. Export → drop into UE5
-4. Stream with god-tier visuals and full control
-
-**The .blend file is the source of truth.** Share it. Modify it. Never pay for the same rig twice.
-
-## Roadmap
-- [ ] v0.1 - Basic mesh + parameter rigging
-- [ ] v0.2 - Physics + tracking integration
-- [ ] v0.3 - Auto-rigging helpers + UE5 importer polish
-- [ ] v1.0 - Full replacement for Live2D workflows
-
-PRs welcome. Especially from artists and VTubers.
-
-Made with spite
+Editor Tools: Custom PSD importer, mesh generator, auto-rigging
+Runtime: Bone-driven animation, parameter interpolation, phone WebSocket server
+Tracking: MediaPipe (phone), Live Link Face, manual
+Engine: Unreal Engine 5.7+
