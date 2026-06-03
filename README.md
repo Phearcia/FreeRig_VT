@@ -33,3 +33,11 @@ Editor Tools: Custom PSD importer, mesh generator, auto-rigging
 Runtime: Bone-driven animation, parameter interpolation, phone WebSocket server
 Tracking: MediaPipe (phone), Live Link Face, manual
 Engine: Unreal Engine 5.7+
+
+FreeRig is a proprietary commercial product.
+
+The source code in this repository is provided for viewing and evaluation only under the FreeRig Proprietary License.
+
+You may not redistribute, modify, or use this code in commercial products without purchasing a commercial license.
+
+For commercial licensing, please refer to the included EULA or contact the author.
