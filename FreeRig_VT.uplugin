@@ -1,0 +1,30 @@
+
+{
+    "FileVersion": 3,
+    "Version": 1,
+    "VersionName": "0.0.1",
+    "FriendlyName": "FreeRig_VT",
+    "Description": "Free, open-source VTuber rigging - No locked files. No gatekeeping. Full ownership.",
+    "Category": "Animation",
+    "CreatedBy": "Phearcia",
+    "CreatedByURL": "https://github.com/Phearcia",
+    "DocsURL": "https://github.com/Phearcia/FreeRig_VT",
+    "MarketplaceURL": "",
+    "SupportURL": "https://github.com/Phearcia/FreeRig_VT/issues",
+    "CanContainContent": true,
+    "IsBetaVersion": true,
+    "IsExperimentalVersion": false,
+    "Installed": false,
+    "Modules": [
+        {
+            "Name": "FreeRig_VT",
+            "Type": "Runtime",
+            "LoadingPhase": "Default"
+        },
+        {
+            "Name": "FreeRig_VTEditor",
+            "Type": "Editor",
+            "LoadingPhase": "Default"
+        }
+    ]
+}
